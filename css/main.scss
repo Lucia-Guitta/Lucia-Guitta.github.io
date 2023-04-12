@@ -1072,7 +1072,6 @@ $baseurl: '{{ site.baseurl }}/images';
 
 					p {
 						color: _palette($p, fg);
-						font-size: 1.5em;
 					}
 				}
 			}
@@ -1694,6 +1693,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				letter-spacing: _size(letter-spacing-alt);
 				text-transform: uppercase;
 				top: 0;
+				font-size: 1.5em;
 
 				a {
 					color: inherit;
