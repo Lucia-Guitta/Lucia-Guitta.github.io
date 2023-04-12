@@ -11,20 +11,19 @@
     'envelope' %}
     <li>
       <a target="_blank" href="{{ socloc[1] }}">
-        <i class="fa-regular fa-{{ socloc[0] }}" style="color: #ffffff"></i>
+        <i class="fa-regular fa-{{ socloc[0] }}"></i>
       </a>
     </li>
     {% else %} {% if socloc[0] == 'linkedin' or socloc[0] == 'instagram' %}
     <li>
       <a target="_blank" href="{{ socloc[1] }}">
-        <i class="fab fa-{{ socloc[0] }}" style="color: #ffffff"></i>
+        <i class="fab fa-{{ socloc[0] }}"></i>
       </a>
     </li>
     {% else %}
     <li>
       <a target="_blank" href="{{ socloc[1] }}">
-        <i class="ai ai-{{ socloc[0] }}"></i
-      ></a>
+        <i class="ai ai-{{ socloc[0] }}"></i></a>
     </li>
     {% endif %} {% endif %} {% endif %} {% endfor %}
   </ul>
