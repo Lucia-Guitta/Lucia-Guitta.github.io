@@ -1072,6 +1072,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 					p {
 						color: _palette($p, fg);
+						font-size: 1.5em;
 					}
 				}
 			}
