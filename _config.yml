@@ -2,56 +2,21 @@
 #
 
 # Site settings
-title: Spectral
+title: Lucía Güitta López
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+  Industrial Engineer - Ph.D. candidate and Research Assistant
+owner: Lucía Güitta López # or company name
+first_published: 2023 # if migrating another site, the year of your first publish
+email: lucia.guitta@iit.comillas.edu
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://lucia-guitta.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
-  #flickr:
-  #instagram:
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+  linkedin: https://linkedin.com/in/lucía-güitta-lópez-081962122/
+  orcid-square: https://orcid.org/0000-0003-2426-3748
+  google-scholar-square: https://scholar.google.es/citations?user=We9MhRcAAAAJ&hl=es&oi=ao
+  researchgate-square: https://www.researchgate.net/profile/Lucia-Gueitta-Lopez
+  instagram: https://www.instagram.com/luu_gl/
+  envelope: mailto:lucia.guitta@iit.comillas.edu
 
 # Build settings
 markdown: kramdown
