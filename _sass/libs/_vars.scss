@@ -37,7 +37,7 @@ $font: (
 
 $palette: (
   // Fondo sección 1 y 3, barra del menú y con darken para el footer
-  bg: rgb(13, 112, 139),
+  bg: #0d708b,
   fg: #fff,
   fg-bold: #fff,
   fg-light: rgba(255, 255, 255, 0.5),
@@ -57,7 +57,7 @@ $palette: (
     border2-bg: rgba(255, 255, 255, 0.2)),
 
   // Iconos sección 2? y 4
-  accent2: (bg: rgb(254, 216, 60),
+  accent2: (bg: #fed83c,
     fg-bold: #ffffff,
     fg: mix(rgb(254, 216, 60), #ffffff, 25%),
     fg-light: mix(rgb(254, 216, 60), #ffffff, 40%),
