@@ -35,8 +35,89 @@ $font: (
   weight-extrabold: 800
 );
 
+$palette: (
+  // Fondo sección 1 y 3, barra del menú y con darken para el footer
+  bg: rgb(0, 79, 66),
+  fg: #fff,
+  fg-bold: #fff,
+  fg-light: rgba(255, 255, 255, 0.5),
+  border: #fff,
+  border-bg: rgba(144, 144, 144, 0.25),
+  border2: #fff,
+  border2-bg: rgba(144, 144, 144, 0.5),
+
+  // Fondo sección 2 y menú desplegable
+  accent1: (bg: rgb(89, 192, 236),
+    fg-bold: #ffffff,
+    fg: mix(rgb(89, 192, 236), #ffffff, 25%),
+    fg-light: mix(rgb(89, 192, 236), #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  // Iconos sección 2? y 4
+  accent2: (bg: rgb(254, 216, 60),
+    fg-bold: #ffffff,
+    fg: mix(rgb(254, 216, 60), #ffffff, 25%),
+    fg-light: mix(rgb(254, 216, 60), #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  accent3: (bg: #00f0ff,
+    fg-bold: #ffffff,
+    fg: mix(#00f0ff, #ffffff, 25%),
+    fg-light: mix(#00f0ff, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  accent4: (bg: #76ddff,
+    fg-bold: #ffffff,
+    fg: mix(#76ddff, #ffffff, 25%),
+    fg-light: mix(#76ddff, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  // Fondo sección 4
+  accent5: (bg: rgb(49, 115, 184),
+    fg-bold: #ffffff,
+    fg: mix(rgb(49, 115, 184), #ffffff, 25%),
+    fg-light: mix(rgb(49, 115, 184), #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  // Usado en la página de los elementos
+  accent6: (bg: #ed4933,
+    fg-bold: #ffffff,
+    fg: mix(#ed4933, #ffffff, 25%),
+    fg-light: mix(#ed4933, #ffffff, 40%),
+    border: rgba(0, 0, 0, 0.125),
+    border-bg: rgba(255, 255, 255, 0.075),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 0.2)),
+
+  accent7: (bg: #ffffff,
+    fg-bold: #2E3842,
+    fg: #4E4852,
+    fg-light: #8E8892,
+    border: #dfdfdf,
+    border-bg: rgba(0, 0, 0, 0.0375),
+    border2: #bfbfbf,
+    border2-bg: rgba(0, 0, 0, 0.1))
+);
+
+/*
 // Palette.
 $palette: (
+  // Fondo sección 1 y 3, barra del menú y con darken para el footer
   bg: #2e3842,
   fg: #fff,
   fg-bold: #fff,
@@ -46,6 +127,7 @@ $palette: (
   border2: #fff,
   border2-bg: rgba(144, 144, 144, 0.5),
 
+  // Fondo sección 2 y menú desplegable
   accent1: (bg: #21b2a6,
     fg-bold: #ffffff,
     fg: mix(#21b2a6, #ffffff, 25%),
@@ -55,6 +137,7 @@ $palette: (
     border2: rgba(0, 0, 0, 0.25),
     border2-bg: rgba(255, 255, 255, 0.2)),
 
+  // Iconos sección 2? y 4
   accent2: (bg: #00ffcc,
     fg-bold: #ffffff,
     fg: mix(#00ffcc, #ffffff, 25%),
@@ -82,6 +165,7 @@ $palette: (
     border2: rgba(0, 0, 0, 0.25),
     border2-bg: rgba(255, 255, 255, 0.2)),
 
+  // Fondo sección 4
   accent5: (bg: #505393,
     fg-bold: #ffffff,
     fg: mix(#505393, #ffffff, 25%),
@@ -91,6 +175,7 @@ $palette: (
     border2: rgba(0, 0, 0, 0.25),
     border2-bg: rgba(255, 255, 255, 0.2)),
 
+  // Usado en la página de los elementos
   accent6: (bg: #ed4933,
     fg-bold: #ffffff,
     fg: mix(#ed4933, #ffffff, 25%),
@@ -109,3 +194,4 @@ $palette: (
     border2: #bfbfbf,
     border2-bg: rgba(0, 0, 0, 0.1))
 );
+*/
