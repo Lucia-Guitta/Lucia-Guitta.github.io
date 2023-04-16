@@ -963,6 +963,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		justify-content: center;
 
 		.image {
 			@include vendor('order', '1');
