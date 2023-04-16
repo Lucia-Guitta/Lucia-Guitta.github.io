@@ -972,7 +972,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			img {
 				border-radius: 0;
 				max-width: 100%;
-  				height: auto;
+  				max-height: 100%;
 			}
 		}
 
