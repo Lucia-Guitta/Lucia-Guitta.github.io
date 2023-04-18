@@ -871,6 +871,22 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		&.bottom{
+			height: 3em; 
+			line-height: 3em; 
+			font-size: 0.9em; 
+			display: block;
+			
+			&:hover {
+				background-color: lighten(_palette(accent6, bg), 5) !important;
+			}
+
+			&:active {
+				background-color: darken(_palette(accent6, bg), 5) !important;
+			}
+
+		}
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
