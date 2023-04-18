@@ -1426,6 +1426,11 @@ $baseurl: '{{ site.baseurl }}/images';
 					display: inline-block;
 					padding: 0;
 
+					>.button{
+						align-items: center;
+  						justify-content: center;
+					}
+
 					> a {
 						border: 0;
 						color: _palette(fg-bold);
@@ -1483,7 +1488,16 @@ $baseurl: '{{ site.baseurl }}/images';
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
 			}
-		}
+
+			nav {
+				> ul {
+					> li {
+						> a{
+							color: _palette(bg);
+						}
+					}
+				}
+			}
 	}
 
 /* Banner */
