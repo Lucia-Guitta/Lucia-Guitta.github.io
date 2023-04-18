@@ -1417,6 +1417,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			top: 0;
 			justify-content: center;
 			align-items: center;
+			display: flex;
 
 			> ul {
 				list-style: none;
@@ -1432,12 +1433,13 @@ $baseurl: '{{ site.baseurl }}/images';
 					>.button{
 						align-items: center;
   						justify-content: center;
+						display: flex;
 					}
 
 					> a {
 						border: 0;
 						color: _palette(fg-bold);
-						display: block;
+						display: flex;
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
 						padding: 0 1.5em;
