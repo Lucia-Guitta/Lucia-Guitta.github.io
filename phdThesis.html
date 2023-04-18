@@ -34,13 +34,19 @@ title: Ph.D. thesis
     framed as <b>the search for an optimized pipeline to solve the sim-to-real problem</b>.
 </p>
 <p>
-<div class="image fit"><img src="images/pic_Thesis_1.png" alt="" height="300" /></div>
+<div class="image"><img src="images/pic_Thesis_1.png" alt="" /></div>
 </p>
+
 <hr />
 <h3>Ph.D. Thesis objectives and contributions</h3>
 <p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
     tackle properly the problem, so the optimal sim-to-real solution should be an approach that integrates various
     methods to boost their strengths and compensate their weaknesses.
+</p>
+<p>
+    The ultimate goal is to achieve a procedure that endows resulting models with optimized generalization properties,
+    seeking to avoid the dependency on photorealistic simulators which might increase the computational resources
+    needed, and the use of complex algorithms that might result in task or environment overfitting.
 </p>
 <p>
     Hence the Ph.D. Thesis objectives and contributions might be sum-up as follows:
@@ -60,12 +66,12 @@ title: Ph.D. thesis
         diversity in a sim-to-sim approach.</li>
     <li>An optimized pipeline that efficiently bridges the reality gap and is appropriate for industrial use cases.</li>
     <li>Validation of the proposed tool with two different robots and a descriptive methodology that should be followed
-        to implement it in another industrial process (in this case, a general process that does not need to be a
-        robot).</li>
+        to implement it in another industrial process.</li>
     <li>Analysis of the drivers that interfere with and hinder transferring experience among simulated and real assets.
     </li>
 </ul>
 </p>
+
 <hr />
 <h3>Ph.D. Thesis case study and assets</h3>
 <h5>Case study</h5>
@@ -92,17 +98,52 @@ title: Ph.D. thesis
     develop a solution that is scalable and applicable in various industry problems.
 </p>
 <p>
-<div class="image fit"><img src="images/pic_RobotsEnv.png" alt="" /></div>
+<div class="image fit"><img src="images/pic_RobotsEnv.png" alt="" style="width: 70%;" /></div>
 </p>
+
 <hr />
 <h3>From concepts to reality: Milestones achieved so far</h3>
 <p>In our search for an efficient solution for the sim-to-real problem that integrates transfer learning techniques, we
     have been exploring the intersection between <b>Progressive Neural Networks (PNNs)</b> and <b>Domain Randomization
-        (DR)</b>. We also plan to add <b>Domain Adaptation (DA)</b> to the equation and some <b>object-centric
-        concepts</b>.
+        (DR)</b>. Regarding this analysis, we have already published a paper titled: <a target="_blank"
+        href="https://link.springer.com/article/10.1007/s10489-022-04227-3"><u>"Learning more with the same
+            effort: how randomization improves the robustness of a robotic deep reinforcement learning agent"</u> in
+        Applied Intelligence (Springer)</a>.
 </p>
 <p>
-    The ultimate goal is to achieve a procedure that endows resulting models with optimized generalization properties,
-    seeking to avoid the dependency on photorealistic simulators which might increase the computational resources
-    needed, and the use of complex algorithms that might result in task or environment overfitting.
+    Regarding the blending of transfer learning techniqes, we also plan to add <b>Domain Adaptation (DA)</b> to the
+    equation and some <b>object-centric concepts in the near future</b>.
+</p>
+<p>
+    Currently, our focus is on investigating the learning mechanisms of the agents that have been trained using the PNN
+    architecture. This is being done to gain deeper insights into how, when, and where knowledge transfer takes place.
+    Our paper titled <a target="_blank"
+        href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342081"><u>"Evaluating the perception, understanding,
+            and forgetting of Progressive Neural Networks: a quantitative and qualitative analysis,"</u> currently under
+        review by the Neural Networks journal,</a> presents our findings in this line.
+</p>
+<p>
+    We have also conducted zero-shot experiments on the IRB120 robot and are currently in the process of deploying the
+    PNN architecture in real-world settings to evaluate its sim-to-real efficiency.
+    On the other hand, we are also researching and testing Bayesian Optimization techniques to define a methodology that
+    results in an optimum set of hyperparameters for a DRL model.
+</p>
+
+<hr />
+<h3>Publications</h3>
+<p>
+<ul>
+    <li><a target="_blank" href="https://link.springer.com/article/10.1007/s10489-022-04227-3">Güitta-López, L., Boal,
+            J. & López-López, Á.J. Learning more with the same effort: how randomization improves
+            the robustness of a robotic deep reinforcement learning agent. Applied Intelligence (2022).</a>
+        <a target="_blank"
+            href="https://doi.org/10.1007/s10489-022-04227-3">https://doi.org/10.1007/s10489-022-04227-3</a>
+    </li>
+    <li><a target="_blank" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342081">Güitta-López, Lucía and
+            Boal Martín-Larrauri, Jaime and López López, Álvaro Jesús, Evaluating the Perception,
+            Understanding, and Forgetting of Progressive Neural Networks: A Quantitative and Qualitative Analysis.</a>
+        Available at SSRN: <a target="_blank" href="https://ssrn.com/abstract=4342081">ssrn.com/abstract=4342081</a>
+        or <a target="_blank" href="http://dx.doi.org/10.2139/ssrn.4342081">dx.doi.org/10.2139/ssrn.4342081</a>
+    </li>
+</ul>
 </p>
