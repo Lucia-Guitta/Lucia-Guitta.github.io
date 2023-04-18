@@ -34,7 +34,7 @@ title: Ph.D. thesis
     framed as <b>the search for an optimized pipeline to solve the sim-to-real problem</b>.
 </p>
 <p>
-<div class="image"><img src="images/pic_Thesis_1.jpeg" alt="" height="700" /></div>
+<div class="image"><img src="images/pic_Thesis_1.jpeg" alt="" height="300" /></div>
 </p>
 <hr />
 <h3>Ph.D. Thesis objectives and contributions</h3>
@@ -54,9 +54,9 @@ title: Ph.D. thesis
 </ol>
 <h5>Contributions</h5>
 <ul>
-    <li>Based on a detailed analysis of the hybrid transfer learning techniques, select the most suitable and
+    <li>Based on a detailed analysis of the transfer learning techniques, select the most suitable and
         interesting procedures that might be implemented in an industrial application.</li>
-    <li>Use of Domain Randomization to speed up the transfer of knowledge process and quantify the benefit of adding
+    <li>Use Domain Randomization to speed up the transfer of knowledge process and quantify the benefit of adding
         diversity in a sim-to-sim approach.</li>
     <li>An optimized pipeline that efficiently bridges the reality gap and is appropriate for industrial use cases.</li>
     <li>Validation of the proposed tool with two different robots and a descriptive methodology that should be followed
@@ -67,16 +67,29 @@ title: Ph.D. thesis
 </ul>
 </p>
 <hr />
-<h3>Ph.D. Thesis assets</h3>
-<p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
-    tackle properly the problem, so the optimal sim-to-real solution should be an approach that integrates various
-    methods to boost their strengths and compensate their weaknesses. Particularly, we have been exploring the
-    intersection between Progressive Neural Networks (PNNs) and Domain Randomization (DR), although we plan to add
-    Domain Adaptation (DA) to the equation and some object-centric concepts. The ultimate goal is to achieve a procedure
-    that endows resulting models with optimized generalization properties, seeking to avoid the dependency on
-    photorealistic simulators which might increase the computational resources needed, and the use of complex algorithms
-    that might result in task or environment overfitting.
+<h3>Ph.D. Thesis case study and assets</h3>
+<h5>Case study</h5>
+<p> The selected industrial operation is Pick & Place, the task where robotic arms pick a component and place it
+    anywhere else. It was selected because: 1) currently, it is a problem that is not solved for chaotic environments;
+    2) it is a cross-cutting process in many industries; and 3) we can access to the assets that comprise the challenge,
+    i.e. two different robotic arms. </p>
+<p>
+    We are first focusing on the algorithm that learns how to approach the arm to a target that is positioned randomly
+    within the robot workspace area. The robotic arm starts with a random initial pose. This framework corresponds to
+    the first part of a Pick & Place process.
+    The input to the agent is just the environment image from which it must infer the robot and the target pose. Since
+    the input is a picture, the representation learning process is embedded in the model due to the state’s high
+    dimensionality.
 </p>
+<h5>Assets</h5>
+<p>We have chosen two different robotic arms, an industrial robot, the <a target="_blank"
+        href="https://new.abb.com/products/robotics/robots/articulated-robots/irb-120">IRB120
+        by ABB</a> and a collaborative one, the <a target="_blank"
+        href="https://www.universal-robots.com/products/ur3-robot/">UR3e by Universal Robots.</a>. Both of these models
+    have 6 degrees of freedom, but they differ significantly in terms of their morphology. We believe that these
+    differences will enable us to test our proposal under two distinct environments, while still allowing the agent to
+    perform the same task. This will enable us to evaluate the performance of our solution in real-world scenarios and
+    develop a solution that is scalable and applicable in various industry problems.</p>
 <hr />
 <h3>From idea to reality: Milestones achieved so far</h3>
 <p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
