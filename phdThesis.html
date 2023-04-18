@@ -19,6 +19,8 @@ title: Ph.D. thesis
     and more complex ones that are currently unsolved, introducing generalization capabilities, scalability and
     flexibility into the current industrial environment constraints. However, the major constraint of the application of
     RL to industry problems is the amount of experience an agent consumes until it learns.
+</p>
+<p>
     This <b>sample efficiency</b> issue of RL algorithms can be addressed relying on the use of virtual environments to
     train the agents. The ideal case would rely on a simulator that is an exact reproduction of the physical setup, but
     in most cases, there will be divergences between both layouts. These divergences can make agents not perform as
@@ -32,15 +34,57 @@ title: Ph.D. thesis
     framed as <b>the search for an optimized pipeline to solve the sim-to-real problem</b>.
 </p>
 <p>
-<div class="image"><img src="images/pic_Thesis_1.jpeg" alt="" /></div>
+<div class="image"><img src="images/pic_Thesis_1.jpeg" alt="" height="700" /></div>
 </p>
 <hr />
-<h3>Ph.D. Thesis objectives</h3>
-<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna
-    egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat
-    efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc
-    blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend
-    sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere
-    finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis
-    fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
+<h3>Ph.D. Thesis objectives and contributions</h3>
+<p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
+    tackle properly the problem, so the optimal sim-to-real solution should be an approach that integrates various
+    methods to boost their strengths and compensate their weaknesses.
+</p>
+<p>
+    Hence the Ph.D. Thesis objectives and contributions might be sum-up as follows:
+<h5>Objectives</h5>
+<ol>
+    <li>Design an optimized pipeline for the transferring experience process between (deep) reinforcement learning
+        agents.</li>
+    <li>Validate the optimized pipeline and its generalization capabilities.</li>
+    <li>Define the methodology that needs to be followed to implement the optimized pipeline in a completely different
+        industrial application.</li>
+</ol>
+<h5>Contributions</h5>
+<ul>
+    <li>Based on a detailed analysis of the hybrid transfer learning techniques, select the most suitable and
+        interesting procedures that might be implemented in an industrial application.</li>
+    <li>Use of Domain Randomization to speed up the transfer of knowledge process and quantify the benefit of adding
+        diversity in a sim-to-sim approach.</li>
+    <li>An optimized pipeline that efficiently bridges the reality gap and is appropriate for industrial use cases.</li>
+    <li>Validation of the proposed tool with two different robots and a descriptive methodology that should be followed
+        to implement it in another industrial process (in this case, a general process that does not need to be a
+        robot).</li>
+    <li>Analysis of the drivers that interfere with and hinder transferring experience among simulated and real assets.
+    </li>
+</ul>
+</p>
+<hr />
+<h3>Ph.D. Thesis assets</h3>
+<p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
+    tackle properly the problem, so the optimal sim-to-real solution should be an approach that integrates various
+    methods to boost their strengths and compensate their weaknesses. Particularly, we have been exploring the
+    intersection between Progressive Neural Networks (PNNs) and Domain Randomization (DR), although we plan to add
+    Domain Adaptation (DA) to the equation and some object-centric concepts. The ultimate goal is to achieve a procedure
+    that endows resulting models with optimized generalization properties, seeking to avoid the dependency on
+    photorealistic simulators which might increase the computational resources needed, and the use of complex algorithms
+    that might result in task or environment overfitting.
+</p>
+<hr />
+<h3>From idea to reality: Milestones achieved so far</h3>
+<p>According to state-of-the-art transfer learning techniques, we argue that there is not a single technique that might
+    tackle properly the problem, so the optimal sim-to-real solution should be an approach that integrates various
+    methods to boost their strengths and compensate their weaknesses. Particularly, we have been exploring the
+    intersection between Progressive Neural Networks (PNNs) and Domain Randomization (DR), although we plan to add
+    Domain Adaptation (DA) to the equation and some object-centric concepts. The ultimate goal is to achieve a procedure
+    that endows resulting models with optimized generalization properties, seeking to avoid the dependency on
+    photorealistic simulators which might increase the computational resources needed, and the use of complex algorithms
+    that might result in task or environment overfitting.
+</p>
