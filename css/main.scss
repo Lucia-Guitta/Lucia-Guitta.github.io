@@ -1882,5 +1882,20 @@ $baseurl: '{{ site.baseurl }}/images';
 			#footer {
 				background-color: darken(_palette(bg), 8);
 			}
+
+			#header {
+				nav {
+					> ul {
+						> li {
+							>.button{
+								align-items: center;
+								justify-content: center;
+								display: flex;
+								font-size: 0.5em;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
