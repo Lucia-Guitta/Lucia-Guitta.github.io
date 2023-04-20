@@ -1870,16 +1870,15 @@ $baseurl: '{{ site.baseurl }}/images';
 				> ul {
 					> li {
 						>.button{
-							align-items: center;
-							justify-content: center;
-							display: flex;
+							display: block;
 							font-size: 0.5em;
+
 						}
 					}
 				}
 			}
 		}
-		
+
 		&.landing {
 			#page-wrapper {
 				background: none;
@@ -1903,9 +1902,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					> ul {
 						> li {
 							>.button{
-								align-items: center;
-								justify-content: center;
-								display: flex;
+								display: block;
 								font-size: 0.5em;
 							}
 						}
