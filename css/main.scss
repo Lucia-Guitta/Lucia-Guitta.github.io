@@ -1868,9 +1868,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		#header {
 			nav {
 				> ul {
+					margin: 0 0 2em 0;
 					> li {
 						>.button{
-							display: block;
+							display: flex;
 							font-size: 0.5em;
 
 						}
@@ -1900,9 +1901,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			#header {
 				nav {
 					> ul {
+						margin: 0 0 2em 0;
 						> li {
 							>.button{
-								display: block;
+								display: flex;
 								font-size: 0.5em;
 							}
 						}
