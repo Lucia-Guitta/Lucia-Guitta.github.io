@@ -1926,11 +1926,33 @@ $baseurl: '{{ site.baseurl }}/images';
 					> ul {
 						> li {
 							>.button{
+								margin: 0 0 4em 0;
 								display: flex;
 								align-items: center;
 								justify-content: center;
-								margin: 0 0 4em 0;
 								font-size: 0.5em;
+	
+								> a {
+									display: flex;
+									margin: 0 0 4em 0;
+									letter-spacing: _size(letter-spacing-alt);
+									text-transform: uppercase;
+			
+									&.menuToggle {
+										outline: 0;
+										position: absolute;
+			
+										&:after {
+											background-image: url('images/bars.svg');
+											background-position: right center;
+											background-repeat: no-repeat;
+											content: '';
+											display: flex;
+											margin: 0 0 4em 0;
+										}
+									}
+								}
+	
 							}
 						}
 					}
