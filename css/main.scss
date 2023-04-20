@@ -1865,6 +1865,21 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body.is-mobile {
+		#header {
+			nav {
+				> ul {
+					> li {
+						>.button{
+							align-items: center;
+							justify-content: center;
+							display: flex;
+							font-size: 0.5em;
+						}
+					}
+				}
+			}
+		}
+		
 		&.landing {
 			#page-wrapper {
 				background: none;
